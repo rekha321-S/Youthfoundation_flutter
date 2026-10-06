@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <title>Youth Foundation of India - Support & Register</title>
+  <meta name="description" content="Join Youth Foundation of India to support orphans, elderly, and needy people. Register today and contribute to the cause.">
+
+    <!-- Canonical chapt sugURL -->
+    <link rel="canonical" href="http://www.youthfoundationofindia.in/">
+    <meta property="og:title" content="Youth Foundation of India - Support & Register">
+    <meta property="og:description" content="Help children, orphans, and the elderly by joining Youth Foundation of India.">
+    <meta property="og:url" content="http://www.youthfoundationofindia.in/">
+    <meta property="og:type" content="website">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="youthfoundation">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <!-- <title>youth foundation of india</title> -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Structured Data (Schema.org for SEO) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Youth Foundation of India",
+      "url": "http://www.youthfoundationofindia.in/",
+      "sameAs": [
+        "https://www.facebook.com/YourPage",
+        "https://www.instagram.com/YourPage"
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "http://www.youthfoundationofindia.in/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script src="main.dart.js" type="application/javascript"></script>
+  <script>
+    window.addEventListener('load', function(ev) {
+      _flutter.loader.load().then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        appRunner.runApp();
+      });
+    });
+  </script>
+</body>
+</html>

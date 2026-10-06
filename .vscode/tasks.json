@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Youth Foundation Flutter Web",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"-d",
+				"chrome",
+				"--web-port",
+				"8090"
+			],
+			"isBackground": true,
+			"problemMatcher": [
+				"$dart-flutter"
+			]
+		},
+		{
+			"label": "Build Youth Foundation Web Release",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"web",
+				"--release"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-flutter"
+			]
+		}
+	]
+}

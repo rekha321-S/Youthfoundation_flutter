@@ -1,0 +1,29 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 4240-FD54
+
+ Directory of C:\Users\Admin\Downloads\youthfoundationofindia-main\youthfoundationofindia-main
+
+07/27/2026  11:45 PM    <DIR>          .
+07/27/2026  11:45 PM    <DIR>          ..
+07/27/2026  11:44 PM    <DIR>          .dart_tool
+07/27/2026  11:44 PM            10,914 .flutter-plugins-dependencies
+03/06/2025  06:15 PM               719 .gitignore
+03/06/2025  06:15 PM             1,669 .metadata
+03/06/2025  06:15 PM             1,453 analysis_options.yaml
+07/27/2026  09:59 PM    <DIR>          android
+03/06/2025  06:15 PM    <DIR>          assets
+07/27/2026  11:43 PM             1,038 build_clean_output.txt
+07/27/2026  11:45 PM            33,516 build_output.txt
+07/27/2026  11:45 PM               212 cmd_dir.txt
+03/06/2025  06:15 PM    <DIR>          ios
+03/06/2025  06:15 PM    <DIR>          lib
+03/06/2025  06:15 PM    <DIR>          linux
+03/06/2025  06:15 PM    <DIR>          macos
+07/27/2026  11:19 PM            24,939 pubspec.lock
+07/27/2026  11:17 PM             4,395 pubspec.yaml
+03/06/2025  06:15 PM               558 README.md
+03/06/2025  06:15 PM    <DIR>          test
+03/06/2025  06:15 PM    <DIR>          web
+03/06/2025  06:15 PM    <DIR>          windows
+              10 File(s)         79,413 bytes
+              12 Dir(s)  145,529,729,024 bytes free
